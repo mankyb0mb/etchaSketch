@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#changer {
+    height: 9px;
+    width: 15px;
+    padding: 10px;
+
+}
+
+.gridHolder {
+    display: flex;
+    flex-direction: column;
+    columns: 4;
+    width: 40vw;
+    height: 40vw;
+    background-color: mistyrose;
+    
+}
+
