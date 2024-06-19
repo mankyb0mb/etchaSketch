@@ -1,15 +1,21 @@
 body {
     display: flex;
+    height: 43vw;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    margin-top: 2vw;
 }
 
-#changer {
-    height: 9px;
-    width: 15px;
+/* #changer {
+    height: 20px;
+    width: 90px;
     padding: 10px;
+} */
 
+#tool {
+    height: 20px;
+    width: 90px;
 }
 
 .gridHolder {
@@ -18,7 +24,8 @@ body {
     columns: 4;
     width: 40vw;
     height: 40vw;
-    background-color: mistyrose;
-    
+    background-color: rgb(177, 177, 177);
+    border-style: solid;
 }
+
 
